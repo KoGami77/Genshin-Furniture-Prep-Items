@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Genshin Furniture</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<h1 class="Heading">Genshin Furniture Prep Items</h1>
+	<section class="whole">
+		<div class="Search">
+			<h3>Furniture Name:</h3>
+            <div class="Calculate">
+            	<input type="text" id="fur_name" value="" onblur="set_furName()">
+            	<input type="button" value="Search" onclick="Search_fur()">
+            </div>
+		</div>
+		<div class="details">
+			<div class="traits">
+				<div class="trait">
+					<h2>Name :</h2>
+				</div>
+				<div class="trait">
+					<h2>Rarity :</h2>
+				</div>
+				<div class="trait">
+					<h2>Adeptal Energy :</h2>
+				</div>
+				<div class="trait">
+					<h2>Materials :</h2>
+				</div>
+			</div>
+			<div class="vl"></div>
+			<div class="info">
+				<div class="trait1">
+					<h2 id="name">...</h2>
+				</div>
+				<div class="trait1">
+					<h2 id="rarity">...</h2>
+				</div>
+				<div class="trait1">
+					<h2 id="adept_energy">...</h2>
+				</div>
+				<div class="trait1">
+					<h2 id="mats">...</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

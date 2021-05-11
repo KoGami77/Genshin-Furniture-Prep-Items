@@ -1,0 +1,132 @@
+@font-face {
+	font-family: genshinFont;
+	src: url(ja-jp.ttf);
+	
+  }
+
+*{
+
+	font-family: genshinFont;
+	font-weight: lighter;
+	color: rgb(200, 200, 200);
+}
+
+body{
+
+	background-color: rgba(29,31,41,255);
+}
+
+.Heading{
+
+	text-align: center;
+	color: rgba(255,179,0,205);
+	font-size: 3vw;
+	padding-top: 1vw;
+}
+
+.whole{
+
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.Search{
+
+	text-align: center;
+	font-size: 2vw;
+}
+
+.Calculate{
+
+	display: inline;
+}
+
+input[type=text]{
+
+	border: 0px;
+	border-radius: 4px;
+	margin-right: 2vw;
+	font-size: 20px;
+	text-align: center;
+	background-color: rgb(80, 80, 80);
+	color: white;
+	padding: .7vw
+}
+
+input[type=button]{
+
+	background-color: rgb(20, 143, 129);
+	border: 0ch;
+	font-size: 1.2vw;
+	padding: .6vw;
+	border-radius: 10px;
+	color: white;
+}
+
+input[type=button]:hover{
+
+	background-color: rgb(23, 161, 145);
+}
+
+.details{
+
+	display: flex;
+	margin: 3vw auto;
+	width: fit-content;
+	background-color: rgba(34,36,49,255);
+	border-radius: 10px
+}
+.traits, .info{
+
+	display: block;
+	margin:2vw;
+	text-align: left;
+}
+
+.traits h2, .info h2{
+
+	padding-bottom: 2vw
+}
+
+#mats{
+
+	color: rgb(23, 161, 145)
+}
+
+#name, #rarity, #adept_energy{
+
+	color: white;
+}
+
+.vl {
+	border-left: 1px solid rgb(100, 100, 100);
+	height: 50vh;
+	padding-top: 2vw
+}
+
+
+@media screen and (max-width: 1000px){
+
+.Heading{
+
+	font-size: 4.6vw;
+}
+
+.Search{
+
+	font-size: 4vw;
+}
+
+input[type=button]{
+
+	font-size: 4vw;
+	border-radius: 4px
+}
+
+.traits h2, .info h2{
+
+	font-size: 3vw
+}
+
+}
